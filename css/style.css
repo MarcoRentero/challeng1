@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #E5E5E5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.card-1 {
+  width: 432px;
+  height: 389px;
+  margin-top: 30px;
+  background: #fff;
+  border-radius: 20px;
+  position: relative;
+}
+
+.cerrar{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 372px;
+  top: 30px;
+}
+
+.img-container-1 {
+  width: 140px;
+  height: 100px;
+  margin: 63px auto 19px;
+}
+
+.img-1, .img2 {
+  width: 100%;
+  height: auto;
+}
+
+.text-1 {
+  width: 327px;
+  height: 72px;
+  margin: 0px auto 16px;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.cta-1{
+  width: 201px;
+  height: 49px;
+  margin: auto;
+  display: block;
+  background: #ED6755;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  line-height: 21px;
+  box-shadow: 0px 6px 35px 0 #b4b4b4a1;
+  cursor: pointer;
+}
+
+.card-2 {
+  width: 432px;
+  height: 389px;
+  margin-top: 39px;
+  background: #fff;
+  border-radius: 20px;
+  position: relative;
+}
+
+.img-container-2 {
+  width: 82px;
+  height: 82px;
+  margin: 74px auto 20px;
+}
+
+.text-2 {
+  width: 203px;
+  height: 48px;
+  margin: 0px auto 16px;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.cta-2{
+  width: 201px;
+  height: 49px;
+  margin: 46px auto 0px;
+  display: block;
+  background: #1C1B5E;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  line-height: 21px;
+  box-shadow: 0px 6px 35px 0 #b4b4b4a1;
+  cursor: pointer;
+}
+
+footer{
+  margin-bottom: 50px;
+}
+
+.nucba{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* Responsive */
+
+@media (max-width: 576px){
+
+  .principal{
+    margin: auto;
+  }
+
+  .cerrar{
+    left: 80%;
+    top: 5%;
+  }
+  
+
+  .card-1, .card-2{
+    width: 95%;
+  }
+}
+
